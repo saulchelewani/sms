@@ -1,0 +1,24 @@
+{
+    "name": "tnmdev/sms",
+    "description": "Sms Sender",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "TNM Developers",
+            "email": "developers@tnm.co.mw"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "TNM\\SMS\\" : "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
